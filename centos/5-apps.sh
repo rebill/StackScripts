@@ -1,7 +1,7 @@
 #/bin/bash
 
 function installPHPMyAdmin() {
-    yum install -y phpMyAdmin
+    yum install -y --skip-broken phpMyAdmin
 }
 
 
