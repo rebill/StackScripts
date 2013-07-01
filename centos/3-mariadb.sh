@@ -10,7 +10,7 @@ gpgcheck=1
 eof
 
     rpm --import https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
-    yum install -y MariaDB-server MariaDB-client
+    yum install -y MariaDB-devel MariaDB-server MariaDB-client
 }
 
 
