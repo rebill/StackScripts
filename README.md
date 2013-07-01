@@ -18,6 +18,8 @@ Scripts
     
 * DataBase
 
+    mariadb.sh
+
     memcached.sh
 
     mysql.sh
