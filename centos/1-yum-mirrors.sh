@@ -12,5 +12,11 @@ function addRemi() {
 }
 
 
+function update() {
+    yum update -y
+}
+
+
 addEPEL
 addRemi
+update
