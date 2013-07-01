@@ -28,6 +28,8 @@ Scripts
     python2.7.sh
     pip-packages.sh
 
+* Applications
 
+    apps.sh
     
     
