@@ -29,7 +29,7 @@ eof
 
 
 function installDevTools() {
-    yum groupinstall "Development tools"
+    yum groupinstall -y "Development tools"
 }
 
 setTimezone
