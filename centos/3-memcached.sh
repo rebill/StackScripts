@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function installMemcached() {
-    yum install -y memcached
+    yum install -y memcached libmemcached-devel
 }
 
 
