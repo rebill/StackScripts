@@ -9,6 +9,7 @@ Scripts
 * System
     
     yum-mirrors.sh
+
     init.sh
     
 * WebServer
@@ -18,14 +19,19 @@ Scripts
 * DataBase
 
     memcached.sh
+
     mysql.sh
+
     redis.sh
     
 * Languages
 
     php.sh
+
     php-ext.sh
+
     python2.7.sh
+
     pip-packages.sh
 
 * Applications
