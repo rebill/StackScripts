@@ -8,6 +8,8 @@ function installPython27() {
     cd Python-2.7.5
     ./configure --prefix=/usr/local
     make && make altinstall
+    ln -sf /usr/local/bin/python2.7 /usr/bin/python
+    echo -e "\e[0;31m Dont forget to change /usr/bin/yum. \e[0m"
 }
 
 
@@ -20,7 +22,7 @@ function installDistribute() {
 
 
 function installPythonPip() {
-    easy_install pip
+    easy_install-2.7 pip
 }
 
 
