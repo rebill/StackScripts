@@ -11,6 +11,7 @@ eof
 
     rpm --import https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
     rpm -e --nodeps mysql-libs
+    yum remove -y mysql-server mysql
     yum install -y MariaDB-devel MariaDB-server MariaDB-client
 }
 
