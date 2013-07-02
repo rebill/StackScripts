@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function installMySQL() {
-    yum install -y mysql-server
+    yum install -y mysql-server mysql-devel
 }
 
 
