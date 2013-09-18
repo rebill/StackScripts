@@ -7,5 +7,10 @@ function installPhalcon() {
     sh ./install
 }
 
+function installOpcache() {
+    yum remove -y php-eaccelerator php-xcache php-apcu
+    yum install -y php-pecl-zendopcache
+}
 
 installPhalcon
+installOpcache
